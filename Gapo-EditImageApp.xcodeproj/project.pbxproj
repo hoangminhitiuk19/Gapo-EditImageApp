@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B629FD5429274540008069FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629FD5329274540008069FA /* AppDelegate.swift */; };
+		B629FD5629274540008069FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629FD5529274540008069FA /* SceneDelegate.swift */; };
+		B629FD5829274540008069FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629FD5729274540008069FA /* ViewController.swift */; };
+		B629FD5B29274540008069FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B629FD5929274540008069FA /* Main.storyboard */; };
+		B629FD5D29274548008069FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B629FD5C29274548008069FA /* Assets.xcassets */; };
+		B629FD6029274548008069FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B629FD5E29274548008069FA /* LaunchScreen.storyboard */; };
+		B629FD6B29274549008069FA /* Gapo_EditImageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629FD6A29274549008069FA /* Gapo_EditImageAppTests.swift */; };
+		B629FD7529274549008069FA /* Gapo_EditImageAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629FD7429274549008069FA /* Gapo_EditImageAppUITests.swift */; };
+		B629FD7729274549008069FA /* Gapo_EditImageAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629FD7629274549008069FA /* Gapo_EditImageAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B629FD6729274549008069FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B629FD4829274540008069FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B629FD4F29274540008069FA;
+			remoteInfo = "Gapo-EditImageApp";
+		};
+		B629FD7129274549008069FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B629FD4829274540008069FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B629FD4F29274540008069FA;
+			remoteInfo = "Gapo-EditImageApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B629FD5029274540008069FA /* Gapo-EditImageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gapo-EditImageApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B629FD5329274540008069FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B629FD5529274540008069FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B629FD5729274540008069FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B629FD5A29274540008069FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B629FD5C29274548008069FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B629FD5F29274548008069FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B629FD6129274548008069FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B629FD6629274549008069FA /* Gapo-EditImageAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gapo-EditImageAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B629FD6A29274549008069FA /* Gapo_EditImageAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gapo_EditImageAppTests.swift; sourceTree = "<group>"; };
+		B629FD7029274549008069FA /* Gapo-EditImageAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gapo-EditImageAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B629FD7429274549008069FA /* Gapo_EditImageAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gapo_EditImageAppUITests.swift; sourceTree = "<group>"; };
+		B629FD7629274549008069FA /* Gapo_EditImageAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gapo_EditImageAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B629FD4D29274540008069FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B629FD6329274549008069FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B629FD6D29274549008069FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B629FD4729274540008069FA = {
+			isa = PBXGroup;
+			children = (
+				B629FD5229274540008069FA /* Gapo-EditImageApp */,
+				B629FD6929274549008069FA /* Gapo-EditImageAppTests */,
+				B629FD7329274549008069FA /* Gapo-EditImageAppUITests */,
+				B629FD5129274540008069FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B629FD5129274540008069FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B629FD5029274540008069FA /* Gapo-EditImageApp.app */,
+				B629FD6629274549008069FA /* Gapo-EditImageAppTests.xctest */,
+				B629FD7029274549008069FA /* Gapo-EditImageAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B629FD5229274540008069FA /* Gapo-EditImageApp */ = {
+			isa = PBXGroup;
+			children = (
+				B629FD5329274540008069FA /* AppDelegate.swift */,
+				B629FD5529274540008069FA /* SceneDelegate.swift */,
+				B629FD5729274540008069FA /* ViewController.swift */,
+				B629FD5929274540008069FA /* Main.storyboard */,
+				B629FD5C29274548008069FA /* Assets.xcassets */,
+				B629FD5E29274548008069FA /* LaunchScreen.storyboard */,
+				B629FD6129274548008069FA /* Info.plist */,
+			);
+			path = "Gapo-EditImageApp";
+			sourceTree = "<group>";
+		};
+		B629FD6929274549008069FA /* Gapo-EditImageAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B629FD6A29274549008069FA /* Gapo_EditImageAppTests.swift */,
+			);
+			path = "Gapo-EditImageAppTests";
+			sourceTree = "<group>";
+		};
+		B629FD7329274549008069FA /* Gapo-EditImageAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B629FD7429274549008069FA /* Gapo_EditImageAppUITests.swift */,
+				B629FD7629274549008069FA /* Gapo_EditImageAppUITestsLaunchTests.swift */,
+			);
+			path = "Gapo-EditImageAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B629FD4F29274540008069FA /* Gapo-EditImageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B629FD7A29274549008069FA /* Build configuration list for PBXNativeTarget "Gapo-EditImageApp" */;
+			buildPhases = (
+				B629FD4C29274540008069FA /* Sources */,
+				B629FD4D29274540008069FA /* Frameworks */,
+				B629FD4E29274540008069FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gapo-EditImageApp";
+			productName = "Gapo-EditImageApp";
+			productReference = B629FD5029274540008069FA /* Gapo-EditImageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B629FD6529274549008069FA /* Gapo-EditImageAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B629FD7D29274549008069FA /* Build configuration list for PBXNativeTarget "Gapo-EditImageAppTests" */;
+			buildPhases = (
+				B629FD6229274549008069FA /* Sources */,
+				B629FD6329274549008069FA /* Frameworks */,
+				B629FD6429274549008069FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B629FD6829274549008069FA /* PBXTargetDependency */,
+			);
+			name = "Gapo-EditImageAppTests";
+			productName = "Gapo-EditImageAppTests";
+			productReference = B629FD6629274549008069FA /* Gapo-EditImageAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B629FD6F29274549008069FA /* Gapo-EditImageAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B629FD8029274549008069FA /* Build configuration list for PBXNativeTarget "Gapo-EditImageAppUITests" */;
+			buildPhases = (
+				B629FD6C29274549008069FA /* Sources */,
+				B629FD6D29274549008069FA /* Frameworks */,
+				B629FD6E29274549008069FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B629FD7229274549008069FA /* PBXTargetDependency */,
+			);
+			name = "Gapo-EditImageAppUITests";
+			productName = "Gapo-EditImageAppUITests";
+			productReference = B629FD7029274549008069FA /* Gapo-EditImageAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B629FD4829274540008069FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B629FD4F29274540008069FA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B629FD6529274549008069FA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B629FD4F29274540008069FA;
+					};
+					B629FD6F29274549008069FA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B629FD4F29274540008069FA;
+					};
+				};
+			};
+			buildConfigurationList = B629FD4B29274540008069FA /* Build configuration list for PBXProject "Gapo-EditImageApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B629FD4729274540008069FA;
+			productRefGroup = B629FD5129274540008069FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B629FD4F29274540008069FA /* Gapo-EditImageApp */,
+				B629FD6529274549008069FA /* Gapo-EditImageAppTests */,
+				B629FD6F29274549008069FA /* Gapo-EditImageAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B629FD4E29274540008069FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B629FD6029274548008069FA /* LaunchScreen.storyboard in Resources */,
+				B629FD5D29274548008069FA /* Assets.xcassets in Resources */,
+				B629FD5B29274540008069FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B629FD6429274549008069FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B629FD6E29274549008069FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B629FD4C29274540008069FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B629FD5829274540008069FA /* ViewController.swift in Sources */,
+				B629FD5429274540008069FA /* AppDelegate.swift in Sources */,
+				B629FD5629274540008069FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B629FD6229274549008069FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B629FD6B29274549008069FA /* Gapo_EditImageAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B629FD6C29274549008069FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B629FD7529274549008069FA /* Gapo_EditImageAppUITests.swift in Sources */,
+				B629FD7729274549008069FA /* Gapo_EditImageAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B629FD6829274549008069FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B629FD4F29274540008069FA /* Gapo-EditImageApp */;
+			targetProxy = B629FD6729274549008069FA /* PBXContainerItemProxy */;
+		};
+		B629FD7229274549008069FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B629FD4F29274540008069FA /* Gapo-EditImageApp */;
+			targetProxy = B629FD7129274549008069FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B629FD5929274540008069FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B629FD5A29274540008069FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B629FD5E29274548008069FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B629FD5F29274548008069FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B629FD7829274549008069FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B629FD7929274549008069FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B629FD7B29274549008069FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T4NAG9C3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gapo-EditImageApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Minh.Gapo-EditImageApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B629FD7C29274549008069FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T4NAG9C3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gapo-EditImageApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Minh.Gapo-EditImageApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B629FD7E29274549008069FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T4NAG9C3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Minh.Gapo-EditImageAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gapo-EditImageApp.app/Gapo-EditImageApp";
+			};
+			name = Debug;
+		};
+		B629FD7F29274549008069FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T4NAG9C3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Minh.Gapo-EditImageAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gapo-EditImageApp.app/Gapo-EditImageApp";
+			};
+			name = Release;
+		};
+		B629FD8129274549008069FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T4NAG9C3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Minh.Gapo-EditImageAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gapo-EditImageApp";
+			};
+			name = Debug;
+		};
+		B629FD8229274549008069FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T4NAG9C3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Minh.Gapo-EditImageAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gapo-EditImageApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B629FD4B29274540008069FA /* Build configuration list for PBXProject "Gapo-EditImageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B629FD7829274549008069FA /* Debug */,
+				B629FD7929274549008069FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B629FD7A29274549008069FA /* Build configuration list for PBXNativeTarget "Gapo-EditImageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B629FD7B29274549008069FA /* Debug */,
+				B629FD7C29274549008069FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B629FD7D29274549008069FA /* Build configuration list for PBXNativeTarget "Gapo-EditImageAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B629FD7E29274549008069FA /* Debug */,
+				B629FD7F29274549008069FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B629FD8029274549008069FA /* Build configuration list for PBXNativeTarget "Gapo-EditImageAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B629FD8129274549008069FA /* Debug */,
+				B629FD8229274549008069FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B629FD4829274540008069FA /* Project object */;
+}
